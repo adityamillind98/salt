@@ -24,6 +24,8 @@ concurrency:
 
 <%- block jobs %>
   <{- super() }>
+  {#- We need the test.pypi.org upload job added here #}
+  {#- We need the package upload tests against staging added here #}
 <%- endblock jobs %>
 
 <%- block pipeline_exit_status %>
